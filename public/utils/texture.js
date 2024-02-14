@@ -1,0 +1,92 @@
+/**
+ * ************************************
+ *
+ * @module  texture.js
+ * @description Texture for Enemy Cube
+ *
+ * ************************************
+ */
+
+export const enemyTexture = [
+  "Javascript-icon",
+  "react",
+  "html",
+  "css",
+  "redux",
+  "red",
+  "node",
+  "threejs",
+  "database",
+  "codesmith",
+  "express",
+  "bcrypt",
+  "mongo",
+  "SQL",
+  "postgreSQL",
+  "error404",
+  "devops",
+  "docker",
+  "ts",
+  "tailwind",
+  "aws",
+  "json",
+];
+export const cohortsTexture = [
+  "Phill",
+  "Laura",
+  "Chacta",
+  "Grace",
+  "Jared",
+  "Donald",
+  "Jaime",
+  "Andrew",
+  "Conor",
+  "Tyler",
+  "Connie",
+];
+export const cs63 = [
+  "Adam",
+  "Alex",
+  "Allison",
+  "Andy",
+  "Anthony",
+  "Daniel",
+  "Jacob",
+  "Jules",
+  "Justin",
+  "Kevin",
+  "Matt",
+  "Quan",
+  "Rob",
+  "Ricky",
+  "Ron",
+  "Stan",
+  "Victoria",
+];
+export const cs62 = [
+  "Aaron",
+  "Alex",
+  "Amir",
+  "Ari",
+  "Bryce",
+  "Cathy",
+  "ChrisE",
+  "ChrisJ",
+  "Elaine",
+  "Eunice",
+  "Hay",
+  "Isaac",
+  "Jarod",
+  "Jenny",
+  "Joseph",
+  "Julian",
+  "Kevin",
+  "King",
+  "Margaret",
+  "Mayson",
+  "Sean",
+  "Tanya",
+  "Vicky",
+  "Claire",
+  "Zoren",
+];

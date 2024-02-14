@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+.container {
+  position: absolute;
+  background-color: #151719;
+  border: 2px solid white;
+  margin: 20px 20px 0;
+  padding: 20px 10px 5px;
+}
+.card {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+/* --- Title Name --- */
+.title {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  font-size: 44px;
+}
+.title span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+/* --- Score Timer --- */
+#timer {
+  padding-top: 5px;
+  font-size: 44px;
+  color: gold;
+  margin: 0;
+}
+#reset {
+  color: white;
+  font-size: 30px;
+  background-color: rgb(72, 112, 197);
+  border: none;
+  padding: 6px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease-out;
+}
+/* --- Textures & Leaderboard Button --- */
+.textures {
+  display: flex;
+}
+#default,
+#cohorts,
+#cs63,
+#cs62 {
+  color: rgb(72, 112, 197);
+  font-size: 20px;
+  background-color: whitesmoke;
+  border: 2px solid lighten(rgb(72, 112, 197), 30%);
+  padding: 5px 5px 5px;
+  font-weight: bold;
+  opacity: 0.85;
+  transition: opacity 0.2s ease-out;
+  flex-shrink: 1;
+  width: 25%;
+}
+.iconoir--leaderboard-star::after {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  vertical-align: -0.125em;
+  background: rgb(8, 0, 254);
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M15 21H9v-8.4a.6.6 0 0 1 .6-.6h4.8a.6.6 0 0 1 .6.6zm5.4 0H15v-2.9a.6.6 0 0 1 .6-.6h4.8a.6.6 0 0 1 .6.6v2.3a.6.6 0 0 1-.6.6M9 21v-4.9a.6.6 0 0 0-.6-.6H3.6a.6.6 0 0 0-.6.6v4.3a.6.6 0 0 0 .6.6zm1.806-15.887l.909-1.927a.312.312 0 0 1 .57 0l.91 1.927l2.032.311c.261.04.365.376.176.568l-1.47 1.5l.347 2.118c.044.272-.228.48-.462.351l-1.818-1l-1.818 1c-.233.128-.506-.079-.462-.351l.347-2.118l-1.47-1.5c-.19-.192-.085-.528.175-.568z'/%3E%3C/svg%3E");
+}
+#reset:hover,
+#score:hover,
+#default:hover,
+#cohorts:hover,
+#cs63:hover,
+#cs62:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+#score:hover {
+  opacity: 0.85;
+}
+/* --- Difficulty Bar --- */
+/* Easy */
+.svg-spinners--blocks-shuffle-2::after {
+  display: inline-block;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  vertical-align: -0.125em;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='10' height='10' x='1' y='1' fill='white' rx='1'%3E%3Canimate id='svgSpinnersBlocksShuffle20' fill='freeze' attributeName='x' begin='0;svgSpinnersBlocksShuffle27.end' dur='0.2s' values='1;13'/%3E%3Canimate id='svgSpinnersBlocksShuffle21' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle24.end' dur='0.2s' values='1;13'/%3E%3Canimate id='svgSpinnersBlocksShuffle22' fill='freeze' attributeName='x' begin='svgSpinnersBlocksShuffle25.end' dur='0.2s' values='13;1'/%3E%3Canimate id='svgSpinnersBlocksShuffle23' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle26.end' dur='0.2s' values='13;1'/%3E%3C/rect%3E%3Crect width='10' height='10' x='1' y='13' fill='white' rx='1'%3E%3Canimate id='svgSpinnersBlocksShuffle24' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle20.end' dur='0.2s' values='13;1'/%3E%3Canimate id='svgSpinnersBlocksShuffle25' fill='freeze' attributeName='x' begin='svgSpinnersBlocksShuffle21.end' dur='0.2s' values='1;13'/%3E%3Canimate id='svgSpinnersBlocksShuffle26' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle22.end' dur='0.2s' values='1;13'/%3E%3Canimate id='svgSpinnersBlocksShuffle27' fill='freeze' attributeName='x' begin='svgSpinnersBlocksShuffle23.end' dur='0.2s' values='13;1'/%3E%3C/rect%3E%3C/svg%3E");
+}
+/* Medium */
+.svg-spinners--blocks-shuffle-3::after {
+  display: inline-block;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  vertical-align: -0.125em;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='10' height='10' x='1' y='1' fill='%23ffbb00' rx='1'%3E%3Canimate id='svgSpinnersBlocksShuffle30' fill='freeze' attributeName='x' begin='0;svgSpinnersBlocksShuffle3b.end' dur='0.2s' values='1;13'/%3E%3Canimate id='svgSpinnersBlocksShuffle31' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle38.end' dur='0.2s' values='1;13'/%3E%3Canimate id='svgSpinnersBlocksShuffle32' fill='freeze' attributeName='x' begin='svgSpinnersBlocksShuffle39.end' dur='0.2s' values='13;1'/%3E%3Canimate id='svgSpinnersBlocksShuffle33' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle3a.end' dur='0.2s' values='13;1'/%3E%3C/rect%3E%3Crect width='10' height='10' x='1' y='13' fill='%23ffbb00' rx='1'%3E%3Canimate id='svgSpinnersBlocksShuffle34' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle30.end' dur='0.2s' values='13;1'/%3E%3Canimate id='svgSpinnersBlocksShuffle35' fill='freeze' attributeName='x' begin='svgSpinnersBlocksShuffle31.end' dur='0.2s' values='1;13'/%3E%3Canimate id='svgSpinnersBlocksShuffle36' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle32.end' dur='0.2s' values='1;13'/%3E%3Canimate id='svgSpinnersBlocksShuffle37' fill='freeze' attributeName='x' begin='svgSpinnersBlocksShuffle33.end' dur='0.2s' values='13;1'/%3E%3C/rect%3E%3Crect width='10' height='10' x='13' y='13' fill='%23ffbb00' rx='1'%3E%3Canimate id='svgSpinnersBlocksShuffle38' fill='freeze' attributeName='x' begin='svgSpinnersBlocksShuffle34.end' dur='0.2s' values='13;1'/%3E%3Canimate id='svgSpinnersBlocksShuffle39' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle35.end' dur='0.2s' values='13;1'/%3E%3Canimate id='svgSpinnersBlocksShuffle3a' fill='freeze' attributeName='x' begin='svgSpinnersBlocksShuffle36.end' dur='0.2s' values='1;13'/%3E%3Canimate id='svgSpinnersBlocksShuffle3b' fill='freeze' attributeName='y' begin='svgSpinnersBlocksShuffle37.end' dur='0.2s' values='1;13'/%3E%3C/rect%3E%3C/svg%3E");
+}
+/* Almost Hard */
+.svg-spinners--blocks-scale::after {
+  display: inline-block;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  vertical-align: -0.125em;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='9' height='9' x='1.5' y='1.5' fill='%23ff7b00' rx='1'%3E%3Canimate id='svgSpinnersBlocksScale0' attributeName='x' begin='0;svgSpinnersBlocksScale1.end+0.15s' dur='0.6s' keyTimes='0;.2;1' values='1.5;.5;1.5'/%3E%3Canimate attributeName='y' begin='0;svgSpinnersBlocksScale1.end+0.15s' dur='0.6s' keyTimes='0;.2;1' values='1.5;.5;1.5'/%3E%3Canimate attributeName='width' begin='0;svgSpinnersBlocksScale1.end+0.15s' dur='0.6s' keyTimes='0;.2;1' values='9;11;9'/%3E%3Canimate attributeName='height' begin='0;svgSpinnersBlocksScale1.end+0.15s' dur='0.6s' keyTimes='0;.2;1' values='9;11;9'/%3E%3C/rect%3E%3Crect width='9' height='9' x='13.5' y='1.5' fill='%23ff7b00' rx='1'%3E%3Canimate attributeName='x' begin='svgSpinnersBlocksScale0.begin+0.15s' dur='0.6s' keyTimes='0;.2;1' values='13.5;12.5;13.5'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksScale0.begin+0.15s' dur='0.6s' keyTimes='0;.2;1' values='1.5;.5;1.5'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksScale0.begin+0.15s' dur='0.6s' keyTimes='0;.2;1' values='9;11;9'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksScale0.begin+0.15s' dur='0.6s' keyTimes='0;.2;1' values='9;11;9'/%3E%3C/rect%3E%3Crect width='9' height='9' x='13.5' y='13.5' fill='%23ff7b00' rx='1'%3E%3Canimate attributeName='x' begin='svgSpinnersBlocksScale0.begin+0.3s' dur='0.6s' keyTimes='0;.2;1' values='13.5;12.5;13.5'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksScale0.begin+0.3s' dur='0.6s' keyTimes='0;.2;1' values='13.5;12.5;13.5'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksScale0.begin+0.3s' dur='0.6s' keyTimes='0;.2;1' values='9;11;9'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksScale0.begin+0.3s' dur='0.6s' keyTimes='0;.2;1' values='9;11;9'/%3E%3C/rect%3E%3Crect width='9' height='9' x='1.5' y='13.5' fill='%23ff7b00' rx='1'%3E%3Canimate id='svgSpinnersBlocksScale1' attributeName='x' begin='svgSpinnersBlocksScale0.begin+0.45s' dur='0.6s' keyTimes='0;.2;1' values='1.5;.5;1.5'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksScale0.begin+0.45s' dur='0.6s' keyTimes='0;.2;1' values='13.5;12.5;13.5'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksScale0.begin+0.45s' dur='0.6s' keyTimes='0;.2;1' values='9;11;9'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksScale0.begin+0.45s' dur='0.6s' keyTimes='0;.2;1' values='9;11;9'/%3E%3C/rect%3E%3C/svg%3E");
+}
+/* Hard  */
+.svg-spinners--blocks-wave::after {
+  display: inline-block;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  vertical-align: -0.125em;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='7.33' height='7.33' x='1' y='1' fill='%23ff0000'%3E%3Canimate id='svgSpinnersBlocksWave0' attributeName='x' begin='0;svgSpinnersBlocksWave1.end+0.2s' dur='0.6s' values='1;4;1'/%3E%3Canimate attributeName='y' begin='0;svgSpinnersBlocksWave1.end+0.2s' dur='0.6s' values='1;4;1'/%3E%3Canimate attributeName='width' begin='0;svgSpinnersBlocksWave1.end+0.2s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3Canimate attributeName='height' begin='0;svgSpinnersBlocksWave1.end+0.2s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3C/rect%3E%3Crect width='7.33' height='7.33' x='8.33' y='1' fill='%23ff0000'%3E%3Canimate attributeName='x' begin='svgSpinnersBlocksWave0.begin+0.1s' dur='0.6s' values='8.33;11.33;8.33'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksWave0.begin+0.1s' dur='0.6s' values='1;4;1'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksWave0.begin+0.1s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksWave0.begin+0.1s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3C/rect%3E%3Crect width='7.33' height='7.33' x='1' y='8.33' fill='%23ff0000'%3E%3Canimate attributeName='x' begin='svgSpinnersBlocksWave0.begin+0.1s' dur='0.6s' values='1;4;1'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksWave0.begin+0.1s' dur='0.6s' values='8.33;11.33;8.33'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksWave0.begin+0.1s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksWave0.begin+0.1s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3C/rect%3E%3Crect width='7.33' height='7.33' x='15.66' y='1' fill='%23ff0000'%3E%3Canimate attributeName='x' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='15.66;18.66;15.66'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='1;4;1'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3C/rect%3E%3Crect width='7.33' height='7.33' x='8.33' y='8.33' fill='%23ff0000'%3E%3Canimate attributeName='x' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='8.33;11.33;8.33'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='8.33;11.33;8.33'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3C/rect%3E%3Crect width='7.33' height='7.33' x='1' y='15.66' fill='%23ff0000'%3E%3Canimate attributeName='x' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='1;4;1'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='15.66;18.66;15.66'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksWave0.begin+0.2s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3C/rect%3E%3Crect width='7.33' height='7.33' x='15.66' y='8.33' fill='%23ff0000'%3E%3Canimate attributeName='x' begin='svgSpinnersBlocksWave0.begin+0.3s' dur='0.6s' values='15.66;18.66;15.66'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksWave0.begin+0.3s' dur='0.6s' values='8.33;11.33;8.33'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksWave0.begin+0.3s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksWave0.begin+0.3s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3C/rect%3E%3Crect width='7.33' height='7.33' x='8.33' y='15.66' fill='%23ff0000'%3E%3Canimate attributeName='x' begin='svgSpinnersBlocksWave0.begin+0.3s' dur='0.6s' values='8.33;11.33;8.33'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksWave0.begin+0.3s' dur='0.6s' values='15.66;18.66;15.66'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksWave0.begin+0.3s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksWave0.begin+0.3s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3C/rect%3E%3Crect width='7.33' height='7.33' x='15.66' y='15.66' fill='%23ff0000'%3E%3Canimate id='svgSpinnersBlocksWave1' attributeName='x' begin='svgSpinnersBlocksWave0.begin+0.4s' dur='0.6s' values='15.66;18.66;15.66'/%3E%3Canimate attributeName='y' begin='svgSpinnersBlocksWave0.begin+0.4s' dur='0.6s' values='15.66;18.66;15.66'/%3E%3Canimate attributeName='width' begin='svgSpinnersBlocksWave0.begin+0.4s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3Canimate attributeName='height' begin='svgSpinnersBlocksWave0.begin+0.4s' dur='0.6s' values='7.33;1.33;7.33'/%3E%3C/rect%3E%3C/svg%3E");
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  max-width: 600px;
+  width: 100%;
+  padding: 0 5px 0;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper #icon {
+  font-size: 35px;
+  width: 70px;
+  text-align: center;
+}
+.wrapper input {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 10px;
+  appearance: none;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #ededed;
+  box-shadow: 0 0 0 2px #ededed;
+  overflow: hidden;
+  cursor: pointer;
+}
+input::-webkit-slider-thumb {
+  appearance: none;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #4070f4;
+  box-shadow: -208px 0 0 200px #4070f4;
+}
+.wrapper .slide-value {
+  font-size: 27px;
+  font-weight: 500;
+  color: gold;
+  width: 70px;
+  text-align: center;
+}
+/* --- Score --- */
+.container-score {
+  background-color: #151719;
+  border-radius: 3px;
+  display: grid;
+  grid-template: auto / repeat(3, 1fr);
+  grid-template-areas: 'box box box button';
+  position: absolute;
+  top: 40%;
+}
+#username {
+  grid-area: box;
+  padding: 0;
+  height: 100%;
+  position: relative;
+  outline: none;
+  border: 1px solid gold;
+  border-color: rgba(255, 253, 246, 0.15);
+  background-color: black;
+  font-size: 30px;
+  color: white;
+}
+#score {
+  grid-area: button;
+  padding: 6px 5px;
+  background-color: rgb(255, 0, 0);
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+}
