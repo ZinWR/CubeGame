@@ -232,10 +232,9 @@ let choice = 'default';
 video.play(); // play video background
 animate();
 /*--------------------------------------- Functions! ---------------------------------------*/
-
 function animate() {
   /* Start Background Music */
-  // if (start) sound.play();
+  if (start) sound.play();
   start = false;
   // Recursively call animate to keep going
   const animationID = requestAnimationFrame(animate);
@@ -448,3 +447,4 @@ function diffculty() {
     );
   }
 }
+console.log('Cookie is ', document.cookie);

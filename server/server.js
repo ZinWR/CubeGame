@@ -30,7 +30,9 @@ app.use('/leaderboard', leaderboardRouter);
 // Unknown Route Handler
 // ----> TO DO: create HTML file for Error 404
 app.use('*', (req, res) =>
-  res.status(404).send("This is not the page you're looking for...")
+  res
+    .status(404)
+    .sendFile(path.join(__dirname, '../public/error404/error404.html'))
 );
 
 // Global Error Handler

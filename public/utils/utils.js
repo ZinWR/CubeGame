@@ -6,6 +6,10 @@
  *
  * ************************************
  */
+/*--------------------------------------- Setting Name via Cookie ---------------------------------------*/
+addEventListener('beforeunload', (event) => {
+  console.log('Cookie is ', document.cookie);
+});
 
 /*--------------------------------------- Save Button ---------------------------------------*/
 document.getElementById('score').addEventListener('click', (event) => {

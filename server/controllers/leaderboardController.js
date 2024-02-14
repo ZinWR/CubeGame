@@ -21,6 +21,7 @@ leaderboardController.createUser = async (req, res, next) => {
     const user = new User({ name, min, sec, milsec });
     await user.save();
     console.log('Create new user: ', user);
+    res.locals.id = user._id;
     return next();
   } catch (err) {
     return next({

@@ -10,25 +10,6 @@ fetch('/leaderboard/users')
     dataArray = data.users;
     buildTable(data.users);
   });
-/*--------------------------------------- Functions ---------------------------------------*/
-var state = {
-  querySet: dataArray,
-  page: 1,
-  rows: 5,
-  window: 5,
-};
-
-function pagination(querySet, page, rows) {
-  const trimStart = (page - 1) * rows;
-  const trimEnd = trimStart + rows;
-  const trimmedData = querySet.slice(trimStart, trimEnd);
-  const pages = Math.ceil(querySet.length / rows);
-
-  return {
-    querySet: trimmedData,
-    pages: pages,
-  };
-}
 
 /*--------------------------------------- Sort Table ---------------------------------------*/
 $('th').on('click', function () {
