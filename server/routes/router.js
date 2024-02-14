@@ -12,7 +12,7 @@ router.get('/', (req, res) =>
 
 // Save Button
 router.post('/', leaderboardController.createUser, (req, res) =>
-  res.status(200).json('Saved score!')
+  res.status(200).json('Score Saved!')
 );
 
 // Get All Users

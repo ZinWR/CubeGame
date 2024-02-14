@@ -6,11 +6,6 @@
  *
  * ************************************
  */
-/*--------------------------------------- Setting Name via Cookie ---------------------------------------*/
-addEventListener('beforeunload', (event) => {
-  console.log('Cookie is ', document.cookie);
-});
-
 /*--------------------------------------- Save Button ---------------------------------------*/
 document.getElementById('score').addEventListener('click', (event) => {
   /* Array of time [min, sec, milsec] */
@@ -32,7 +27,7 @@ document.getElementById('score').addEventListener('click', (event) => {
     .then((res) => res.json())
     .then((data) => {
       // Got response from server
-      console.log('response data is ', data);
+      alert(data);
     })
     .catch((err) => console.log('SaveButton fetch /leaderboard: ERROR: ', err));
 });

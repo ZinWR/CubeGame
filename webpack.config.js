@@ -38,6 +38,11 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader'], // read from right to left
         // css-loader requires for css with imported URL
       },
+      /* Rule for ThreeJs */
+      {
+        test: /\.(glb|gltf|obj|mtl|png|jpg|jpeg|gif|svg)$/i,
+        type: 'asset/resource',
+      },
     ],
   },
   /* Webpack Dev Server */

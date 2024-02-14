@@ -447,4 +447,3 @@ function diffculty() {
     );
   }
 }
-console.log('Cookie is ', document.cookie);
