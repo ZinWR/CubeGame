@@ -57,7 +57,6 @@ module.exports = {
     "webpack-dev-server": "^4.5.0",
     "webpack-hot-middleware": "^2.24.3" */
   devServer: {
-    contentBase: './dist',
     host: 'localhost',
     port: 8080,
     static: {

@@ -9,9 +9,78 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
   <body>
+    <!-- About Project SECTION -->
+    <section class="timeline" hidden>
+      <button id="backButton" onClick="window.location.reload();">Back To LeaderBoard</button>
+      <div class="about-container left-container">
+        <img src="./imgages/webpack.png">
+        <div class="textbox">
+          <h2>Webpack</h2>
+          <small>Set Up - Configuration</small>
+          <ul>
+            <li>Had some Version Compatibility Issues.</li>
+            <li>Built entire project then set up webpack. (Not ideal)</li>
+            <li>Page started to scroll and HTML elements disappeared because of THREE JS Canvas (only in Dev Server weird?).</li>
+          </ul>
+          <span class="left-container-arrow"></span>
+        </div>
+      </div>
+      <div class="about-container right-container">
+         <img src="./imgages/threejs.png">
+        <div class="textbox">
+          <h2>Three JS</h2>
+          <small>Set Up - Research</small>
+          <ul>
+            <li>Creating animations like Moving, Jumping, Spinning and Creating Gravity Fall were challenging.</li>
+            <li>Collission Detection with enemies & Adjusting Spawn Rate via frames were tricky.</li>
+            <li>Had to deal with a lot of data structures & classes from THREE js such as Mesh, WebGLRenderer, OrbitControls and PerspectiveCamera.</li>
+          </ul>
+          <span class="right-container-arrow"></span>
+        </div>
+      </div>
+      <div class="about-container left-container">
+         <img src="./imgages/mongodb.png">
+        <div class="textbox">
+          <h2>Frontend - Backend - Database</h2>
+          <small>Small Silly Details</small>
+          <ul>
+            <li>Had troubling connecting Frontend-Backend BECAUSE forgot to import "path" while using path.join/resolve</li>
+            <li>Took 2+ hours to realize the "&#8826;" and "&#8827;" for MongoDB password NEED TO BE DELETED!</li>
+          </ul>
+          <span class="left-container-arrow"></span>
+        </div>
+      </div>
+      <div class="about-container right-container">
+         <img src="./imgages/leaderboard.jpeg">
+        <div class="textbox">
+          <h2>Leaderboard</h2>
+          <small>Search & Sort</small>
+          <ul>          
+            <li>Used DOM to populate table with data from MongoDB</li>
+            <li>Originally wanted to sort in MongoDB Databases</li>
+            <li>Had to refactor DOM function to destroyed entire table and built again for search</li>
+          </ul>
+          <span class="right-container-arrow"></span>
+        </div>
+      </div>
+      <div class="about-container left-container">
+        <img src="./imgages/cry.jpeg">
+       <div class="textbox">
+         <h2>Stretched Goal: Error 404 Page</h2>
+         <small>MIME Restriction</small>
+         <ul>
+           <li>Wanted to display another THREE JS file for Error 404 Page</li>
+           <li>MIME Header Types doesn't match & could't "inject"/load THREE JS script because of restriction & security</li>
+         </ul>
+         <span class="left-container-arrow"></span>
+       </div>
+     </div>
+    </section>
+    <!-- LeaderBoard SECTION -->
     <div class="container">
       <section class="description">
         <h1>Cube Game Leaderboard</h1>
+        <button id="hideSearch">About This Project</button>
         <input id="search" class="search" placeholder="Search" />
       </section>
       <div class="bubbles">

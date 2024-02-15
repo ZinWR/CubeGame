@@ -26,13 +26,13 @@ app.use(express.static(path.resolve(__dirname, '../public')));
 // LeaderboardRouter
 app.use('/leaderboard', leaderboardRouter);
 
+app.use('/error', express.static(__dirname + '../error404'));
+
 /*--------------------------------------- Errors ---------------------------------------*/
 // Unknown Route Handler
 app.use('*', (req, res) => {
   res.setHeader('Content-Type', 'application/javascript');
-  return res
-    .status(404)
-    .sendFile(path.join(__dirname, '../error404/error404.html'));
+  return res.sendFile(path.join(__dirname, '../error404/error404.html'));
 });
 
 app.get('/error404.js', (req, res) => {

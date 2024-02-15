@@ -77,3 +77,12 @@ function searchTable(value, dataArray) {
 
   return filteredData;
 }
+/*--------------------------------------- Swap to About ---------------------------------------*/
+// removeAttribute(attrName) vs. setAttribute(name, value)
+// Click to hide table and show progress
+document.getElementById('hideSearch').addEventListener('click', (event) => {
+  document.querySelector('.container').setAttribute('hidden', '');
+  document.querySelector('.timeline').removeAttribute('hidden');
+});
+
+// window.location.reload();
