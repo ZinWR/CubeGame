@@ -28,11 +28,17 @@ app.use('/leaderboard', leaderboardRouter);
 
 /*--------------------------------------- Errors ---------------------------------------*/
 // Unknown Route Handler
-app.use('*', (req, res) =>
-  res
+app.use('*', (req, res) => {
+  res.setHeader('Content-Type', 'application/javascript');
+  return res
     .status(404)
-    .sendFile(path.join(__dirname, '../public/error404/error404.html'))
-);
+    .sendFile(path.join(__dirname, '../error404/error404.html'));
+});
+
+app.get('/error404.js', (req, res) => {
+  res.set('Content-Type', 'text/javascript'); // Set content type to JavaScript
+  res.sendFile(path.join(__dirname, 'error404', 'error404.js'));
+});
 
 // Global Error Handler
 app.use((err, req, res, next) => {

@@ -32,6 +32,10 @@ document.getElementById('score').addEventListener('click', (event) => {
     .catch((err) => console.log('SaveButton fetch /leaderboard: ERROR: ', err));
 });
 
+document.getElementById('score').addEventListener('click', (event) => {
+  document.querySelector('.container-score').style.display = 'none';
+});
+
 document.getElementById('leaderboard').addEventListener('click', (event) => {
   window.location.href = './leaderboard';
 });
