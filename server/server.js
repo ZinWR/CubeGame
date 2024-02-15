@@ -28,7 +28,6 @@ app.use('/leaderboard', leaderboardRouter);
 
 /*--------------------------------------- Errors ---------------------------------------*/
 // Unknown Route Handler
-// ----> TO DO: create HTML file for Error 404
 app.use('*', (req, res) =>
   res
     .status(404)

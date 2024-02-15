@@ -1,8 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  position: absolute;
+  margin-top: 50px;
+}
+
+body {
+  display: flex;
+  height: 100vh;
   justify-content: center;
-  text-align: center;
-  box-sizing: border-box;
+  background: #1d1e23;
+}
+h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+h1 span {
+  color: #ffdd00;
+  position: relative;
+}
+h1 span::before {
+  content: '';
+  height: 30px;
+  width: 2px;
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  background: #ffdd00;
+  transform: translateY(-45%);
+  animation: blink 0.7s infinite;
+}
+h1 span.stop-blinking::before {
+  animation: none;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
