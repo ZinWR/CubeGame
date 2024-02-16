@@ -115,7 +115,7 @@ h1 {
   transition: opacity 0.2s ease-out;
 }
 #hideSearch:hover,
-#scobackButtonre:hover {
+#backButton:hover {
   cursor: pointer;
   opacity: 1;
 }
