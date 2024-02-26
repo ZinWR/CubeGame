@@ -1,5 +1,6 @@
-
+<p align="center">
 # **Cube Game**
+</p>
 
 Solo Project by - [@Quan Nguyen](https://github.com/ZinWR) 
 
