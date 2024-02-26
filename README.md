@@ -55,7 +55,7 @@ Fork, Clone & Install dependencies
   npm install
   npm build
 ```
-To play on `localhost:3000`:
+To play on `localhost:3000`
 
 ```bash
   npm start
@@ -70,20 +70,20 @@ To run in the `Dev Environment`
 
 ## Stretched Features & Bug Fix for Iteration
 
-- Fix the `**MIME Restriction in Chrome**` to render the Three.js file from the `'error404' folder` instead of just showing the HTML file.
+- Fix the `MIME Restriction in Chrome` to render the Three.js file from the `'error404' folder` instead of just showing the HTML file.
 
 - Add logic to jumping where you can **only jump once or twice not infinitely** like Kirby in Smash.
 
-- Reorder Three.js files into `**React components**`.
+- Reorder Three.js files into `React components`.
 
-- Integrate `**React-Three-Fiber (R3F)**` for reusable and self-contained Three.js components that `react to state` in React's ecosystem.
+- Integrate `React-Three-Fiber (R3F)` for reusable and self-contained Three.js components that `react to state` in React's ecosystem.
 
 
 ## Related Projects
 
-[**Tech Tango**](https://github.com/63-Pink-Fairy-Armadillo/TechTango) - `[**Scratch Project**]` ➤ Social Media-like App to connect new and existing Cohort members (Junior and Senior Developers)
+[**Tech Tango**](https://github.com/63-Pink-Fairy-Armadillo/TechTango) - `[Scratch Project]` ➤ Social Media-like App to connect new and existing Cohort members (Junior and Senior Developers)
 
-[**Foor Forager App V2**](https://github.com/63-Cat-Snake/Food-Forager-App-V2) - `[**Iteration Project**]` ➤ An App to search restaurants near you using geolocation coordinates 
+[**Foor Forager App V2**](https://github.com/63-Cat-Snake/Food-Forager-App-V2) - `[Iteration Project]` ➤ An App to search restaurants near you using geolocation coordinates 
 
 - Restructured and Organized React components & application files.
 - Added more stylings for the front end.
