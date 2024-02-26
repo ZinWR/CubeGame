@@ -24,25 +24,19 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 Gameplay:
 </p>
 
-<img align="center">
 ![CubeGame demo gif](https://github.com/ZinWR/CubeGame/assets/97579692/b6bd63e4-9180-4460-8b09-cee546d09e29)
-</p>
 
 <p align="center">
 Leaderboard:
 </p>
 
-<img align="center">
 ![CubeGame demoGIF 2](https://github.com/ZinWR/CubeGame/assets/97579692/ddedb236-2a11-43a4-b455-a2e095812537)
-</img>
 
 <p align="center">
 About The Project - Technical Difficulties:
 </p>
 
-<img align="center">
 ![CubeGame demoGIF 3](https://github.com/ZinWR/CubeGame/assets/97579692/88dfbb54-f7ba-484e-a592-6e451ac3123a)
-</img>
 
 ## Lessons Learned
 
