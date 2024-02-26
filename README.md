@@ -1,6 +1,4 @@
-<p align="center">
 # **Cube Game**
-</p>
 
 Solo Project by - [@Quan Nguyen](https://github.com/ZinWR) 
 
@@ -21,6 +19,8 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 **Others:** Webpack, Nodemon, Mongoose
 
 ## Demo
+
+<p align="center">
 Gameplay:
 
 ![CubeGame demo gif](https://github.com/ZinWR/CubeGame/assets/97579692/b6bd63e4-9180-4460-8b09-cee546d09e29)
@@ -32,6 +32,8 @@ Leaderboard:
 About The Project - Technical Difficulties:
 
 ![CubeGame demoGIF 3](https://github.com/ZinWR/CubeGame/assets/97579692/88dfbb54-f7ba-484e-a592-6e451ac3123a)
+</p>
+
 
 ## Lessons Learned
 
