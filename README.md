@@ -42,7 +42,7 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 - 3D Animation Game with Basic Controls
 - 5 Levels of Difficulties: Easy, Medium, Hard, Super Hard, Impossible
 
-(*Automatically speed up difficulties when clicking on the animated cube on the left of the slide bar*)
+`Impossible mode`: *Automatically speed up difficulties when clicking on the animated cube on the left of the slide bar*
 
 - Different Textures of Cohort Instructors & Members
 - Live Leaderboard
