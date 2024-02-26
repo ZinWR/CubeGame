@@ -51,7 +51,7 @@ Fork, Clone & Install dependencies
 
 ```bash
   git clone https://link-to-forked-page.git
-  cd "Cube Game"
+  cd CubeGame
   npm install
   npm build
 ```
