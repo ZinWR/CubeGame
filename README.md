@@ -22,16 +22,13 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 ## Demo
 Gameplay:
 
-
 ![CubeGame demo gif](https://github.com/ZinWR/CubeGame/assets/97579692/b6bd63e4-9180-4460-8b09-cee546d09e29)
 
 Leaderboard:
 
-
 ![CubeGame demoGIF 2](https://github.com/ZinWR/CubeGame/assets/97579692/ddedb236-2a11-43a4-b455-a2e095812537)
 
 About The Project - Technical Difficulties:
-
 
 ![CubeGame demoGIF 3](https://github.com/ZinWR/CubeGame/assets/97579692/88dfbb54-f7ba-484e-a592-6e451ac3123a)
 
