@@ -19,6 +19,12 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 
 **Others:** Webpack, Nodemon, Mongoose
 
+## Demo
+
+![CubeGame demo gif](https://github.com/ZinWR/CubeGame/assets/97579692/b6bd63e4-9180-4460-8b09-cee546d09e29)
+
+![CubeGame demoGIF 2](https://github.com/ZinWR/CubeGame/assets/97579692/ddedb236-2a11-43a4-b455-a2e095812537)
+
 
 ## Lessons Learned
 
@@ -26,7 +32,8 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 - Understanding of 3D coordinate systems and transformations.
 - Proficiency in handling user input for interactive experiences in both front-end and back-end development.
 - Improved problem-solving skills through overcoming challenges in 3D rendering and interaction.
-- Practice DOM Manipulation to consolidate Javascript knowledge. 
+- Practice DOM Manipulation to consolidate Javascript knowledge.
+
 ## Game Features
 
 - 3D Animation Game with Basic Controls
@@ -59,13 +66,6 @@ To run in the Dev Environment
 ```bash
   npm run dev
 ```    
-## Demo
-
-![CubeGame demo gif](https://github.com/ZinWR/CubeGame/assets/97579692/b6bd63e4-9180-4460-8b09-cee546d09e29)
-
-
-
-
 
 ## Roadmap for Iteration
 
