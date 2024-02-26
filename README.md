@@ -62,7 +62,7 @@ To play the game:
 ```  
 To run in the Dev Environment 
 
-*Disclaimer:* Three.js canvas sometimes will displace the screen when you press jump!
+*Disclaimer: Three.js canvas sometimes will displace the screen when you press jump!*
 
 ```bash
   npm run dev
