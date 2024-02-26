@@ -5,12 +5,6 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quan-nguyen27/) 
 
-![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC2Xk3-Fq5D3SEe2HFeTmBGw)
-
-![Twitch Status](https://img.shields.io/twitch/status/ZinWR)
-
-
-
 **Problem:** Developers are too stressed about learning, thinking, and building full-stack projects
 
 **Solution:** A fun entertaining survival game to help them relax and bond with the cohort members while competing in a friendly competition.
