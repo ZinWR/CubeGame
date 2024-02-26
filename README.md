@@ -25,7 +25,7 @@ Gameplay:
 </p>
 
 <p align="center">
-  <img src="https://github.com/ZinWR/CubeGame/assets/97579692/b6bd63e4-9180-4460-8b09-cee546d09e29" alt="Gameplay GIF" />
+  <img src="https://github.com/ZinWR/CubeGame/assets/97579692/b6bd63e4-9180-4460-8b09-cee546d09e29" alt="Gameplay GIF" width='400' height='auto' />
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ Leaderboard:
 </p>
 
 <p align="center">
-  <img src="https://github.com/ZinWR/CubeGame/assets/97579692/ddedb236-2a11-43a4-b455-a2e095812537" alt="Leaderboard GIF" />
+  <img src="https://github.com/ZinWR/CubeGame/assets/97579692/ddedb236-2a11-43a4-b455-a2e095812537" alt="Leaderboard GIF" width='400' height='auto' />
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@ About The Project - Technical Difficulties:
 </p>
 
 <p align="center">
-  <img src="https://github.com/ZinWR/CubeGame/assets/97579692/88dfbb54-f7ba-484e-a592-6e451ac3123a" alt="About GIF" />
+  <img src="https://github.com/ZinWR/CubeGame/assets/97579692/88dfbb54-f7ba-484e-a592-6e451ac3123a" alt="About GIF" width='400' height='auto' />
 </p>
 
 ## Lessons Learned
