@@ -32,7 +32,7 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 ## Lessons Learned
 
 - Mastery of `lighting, shading, and materials` in a 3D environment.
-- Understanding of 3D coordinate systems and transformations.
+- Understanding of `3D coordinate systems` and `transformations`.
 - Proficiency in handling user input for interactive experiences in both front-end and back-end development.
 - Improved problem-solving skills through overcoming challenges in 3D rendering and interaction.
 - Practice `DOM Manipulation` to consolidate Javascript knowledge.
@@ -40,7 +40,7 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 ## Game Features
 
 - 3D Animation Game with Basic Controls
-- 5 Level of Difficulties: Easy, Medium, Hard, Super Hard, Impossible (*Automatic*)
+- 5 Levels of Difficulties: Easy, Medium, Hard, Super Hard, Impossible (*Automatically speed up difficulties when click on the animated cube on the left of the slide-bar*)
 - Different Textures of Cohort Instructors & Members
 - Live Leaderboard
 - Hype Background Music
@@ -72,7 +72,7 @@ To run in the `Dev Environment`
 
 - Fix the `MIME Restriction in Chrome` to render the Three.js file from the `'error404' folder` instead of just showing the HTML file.
 
-- Add logic to jumping where you can **only jump once or twice not infinitely** like Kirby in Smash.
+- Add logic to jumping where you can `only jump once or twice not infinitely` like Kirby in Smash.
 
 - Reorder Three.js files into `React components`.
 
@@ -81,9 +81,9 @@ To run in the `Dev Environment`
 
 ## Related Projects
 
-[**Tech Tango**](https://github.com/63-Pink-Fairy-Armadillo/TechTango) - `[Scratch Project]` ➤ Social Media-like App to connect new and existing Cohort members (Junior and Senior Developers)
+[**Tech Tango**](https://github.com/63-Pink-Fairy-Armadillo/TechTango) - `Scratch Project` ➤ Social Media-like App to connect new and existing Cohort members (Junior and Senior Developers)
 
-[**Foor Forager App V2**](https://github.com/63-Cat-Snake/Food-Forager-App-V2) - `[Iteration Project]` ➤ An App to search restaurants near you using geolocation coordinates 
+[**Foor Forager App V2**](https://github.com/63-Cat-Snake/Food-Forager-App-V2) - `Iteration Project` ➤ An App to search restaurants near you using geolocation coordinates 
 
 - Restructured and Organized React components & application files.
 - Added more stylings for the front end.
