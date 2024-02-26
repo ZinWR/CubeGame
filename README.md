@@ -68,7 +68,7 @@ To run in the Dev Environment
   npm run dev
 ```    
 
-## Roadmap for Iteration
+## Stretched Features & Bug Fix for Iteration
 
 - Fix the **MIME Restriction in Chrome** to render the Three.js file from the 'error404' folder instead of just showing the HTML file.
 
