@@ -31,11 +31,11 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 
 ## Lessons Learned
 
-- Mastery of lighting, shading, and materials in a 3D environment.
+- Mastery of `lighting, shading, and materials` in a 3D environment.
 - Understanding of 3D coordinate systems and transformations.
 - Proficiency in handling user input for interactive experiences in both front-end and back-end development.
 - Improved problem-solving skills through overcoming challenges in 3D rendering and interaction.
-- Practice DOM Manipulation to consolidate Javascript knowledge.
+- Practice `DOM Manipulation` to consolidate Javascript knowledge.
 
 ## Game Features
 
@@ -55,12 +55,12 @@ Fork, Clone & Install dependencies
   npm install
   npm build
 ```
-To play the game:
+To play on `localhost:3000`:
 
 ```bash
   npm start
 ```  
-To run in the Dev Environment 
+To run in the `Dev Environment`
 
 *Disclaimer: Three.js canvas sometimes will displace the screen when you press jump!*
 
@@ -70,20 +70,20 @@ To run in the Dev Environment
 
 ## Stretched Features & Bug Fix for Iteration
 
-- Fix the **MIME Restriction in Chrome** to render the Three.js file from the 'error404' folder instead of just showing the HTML file.
+- Fix the `**MIME Restriction in Chrome**` to render the Three.js file from the `'error404' folder` instead of just showing the HTML file.
 
 - Add logic to jumping where you can **only jump once or twice not infinitely** like Kirby in Smash.
 
-- Reorder Three.js files into **React components**.
+- Reorder Three.js files into `**React components**`.
 
-- Integrate **React-Three-Fiber (R3F)** for reusable and self-contained Three.js components that react to state in React's ecosystem.
+- Integrate `**React-Three-Fiber (R3F)**` for reusable and self-contained Three.js components that `react to state` in React's ecosystem.
 
 
 ## Related Projects
 
-[**Tech Tango**](https://github.com/63-Pink-Fairy-Armadillo/TechTango) - [**Scratch Project**] ➤ Social Media-like App to connect new and existing Cohort members (Junior and Senior Developers)
+[**Tech Tango**](https://github.com/63-Pink-Fairy-Armadillo/TechTango) - `[**Scratch Project**]` ➤ Social Media-like App to connect new and existing Cohort members (Junior and Senior Developers)
 
-[**Foor Forager App V2**](https://github.com/63-Cat-Snake/Food-Forager-App-V2) - [**Iteration Project**] ➤ An App to search restaurants near you using geolocation coordinates 
+[**Foor Forager App V2**](https://github.com/63-Cat-Snake/Food-Forager-App-V2) - `[**Iteration Project**]` ➤ An App to search restaurants near you using geolocation coordinates 
 
 - Restructured and Organized React components & application files.
 - Added more stylings for the front end.
