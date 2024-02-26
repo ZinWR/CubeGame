@@ -20,7 +20,7 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 
 ## Demo
 
-<div style="display:flex; flex-direction:row; justify-content:center; align-item:center;">
+<div style="display:flex; flex-direction:row; justify-content:space-between;">
   <div>
     <p align="center">Gameplay:</p>
     <img src="https://github.com/ZinWR/CubeGame/assets/97579692/b6bd63e4-9180-4460-8b09-cee546d09e29" alt="Gameplay GIF" width='400' height='auto' />
