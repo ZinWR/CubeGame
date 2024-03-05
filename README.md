@@ -1,8 +1,9 @@
 # **Cube Game**
 
-Solo Project by - [@Quan Nguyen](https://github.com/ZinWR) 
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quan-nguyen27/) 
+<div align="center">
+    <p>Solo Project by - [@Quan Nguyen](https://github.com/ZinWR) </p>
+    [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quan-nguyen27/) 
+</div>
 
 **Problem:** Developers are too stressed about learning, thinking, and building full-stack projects
 
