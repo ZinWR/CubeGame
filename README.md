@@ -2,14 +2,9 @@
 
 <div align="center">
     <p>Solo Project by - <a href="https://github.com/ZinWR">@Quan Nguyen</a></p>
-    <p>
-      <a href="[https://www.linkedin.com/[removed]](https://www.linkedin.com/in/quan-nguyen27/)" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-      </a> &nbsp; 
-      <a href="https://github.com/ZinWR" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-     </a>
-    </p>
+    <a href="https://www.linkedin.com/in/quan-nguyen27" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+    </a>
 </div>
 
 **Problem:** Developers are too stressed about learning, thinking, and building full-stack projects
