@@ -40,6 +40,9 @@ Solo Project by - [@Quan Nguyen](https://github.com/ZinWR)
 ## Game Features
 
 - 3D Animation Game with Basic Controls
+  
+`Fun Feature`: Press the `e` key to `cycle through spin mode` on yourself (neutral ➤ vertically ➤ horizontally ➤ both ➤ stop)
+
 - 5 Levels of Difficulties: Easy, Medium, Hard, Super Hard, Impossible
 
 `Impossible mode`: *Automatically speed up difficulties when clicking on the animated cube on the left of the slide bar*
