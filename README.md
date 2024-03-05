@@ -1,8 +1,15 @@
 # **Cube Game**
 
 <div align="center">
-    <p>Solo Project by - [@Quan Nguyen](https://github.com/ZinWR) </p>
-    [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quan-nguyen27/) 
+    <p>Solo Project by - <a href="https://github.com/ZinWR">@Quan Nguyen</a></p>
+    <p>
+      <a href="[https://www.linkedin.com/[removed]](https://www.linkedin.com/in/quan-nguyen27/)" rel="nofollow noreferrer">
+          <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+      </a> &nbsp; 
+      <a href="https://github.com/ZinWR" rel="nofollow noreferrer">
+          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+     </a>
+    </p>
 </div>
 
 **Problem:** Developers are too stressed about learning, thinking, and building full-stack projects
