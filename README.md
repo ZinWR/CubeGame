@@ -1,4 +1,5 @@
 # **Cube Game**
+![CubeGame Logo](https://github.com/ZinWR/CubeGame/assets/97579692/c4719d8c-a54e-45c6-ae92-3620937abb50)
 
 <div align="center">
     <p>Solo Project by - <a href="https://github.com/ZinWR">@Quan Nguyen</a></p>
