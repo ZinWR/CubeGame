@@ -1,6 +1,6 @@
 # **Cube Game**
 <div align="center">
-    <img src="https://github.com/ZinWR/CubeGame/assets/97579692/c4719d8c-a54e-45c6-ae92-3620937abb50" alt="CubeGame Logo" width="550" height="auto">
+    <img src="https://github.com/ZinWR/CubeGame/assets/97579692/c4719d8c-a54e-45c6-ae92-3620937abb50" alt="CubeGame Logo" width="300" height="auto">
 </div>
 
 
